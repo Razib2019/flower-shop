@@ -7,3 +7,44 @@
 body {
   font-family: "Lato", sans-serif;
 }
+
+.description-text {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  color: white;
+  border: none;
+}
+
+/* Top Banner Section Styles  */
+.top-banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 240px 0px 240px;
+  background-color: #e554731a;
+}
+
+.top-banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+
+.top-margin {
+  margin-top: 32px;
+}
+
+.top-banner-img img {
+  width: 635px;
+}
