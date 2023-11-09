@@ -1,0 +1,9 @@
+/* Shared Styles */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
