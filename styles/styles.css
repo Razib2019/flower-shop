@@ -8,6 +8,13 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.title-text {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
 .description-text {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
@@ -25,6 +32,15 @@ body {
   border: none;
 }
 
+.flower-tree-name {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+
 /* Top Banner Section Styles  */
 .top-banner-container {
   display: flex;
@@ -32,6 +48,7 @@ body {
   align-items: center;
   padding: 50px 240px 0px 240px;
   background-color: #e554731a;
+  margin-bottom: 175px;
 }
 
 .top-banner-title {
@@ -47,4 +64,62 @@ body {
 
 .top-banner-img img {
   width: 635px;
+}
+
+/* Featured Flowers Section Styles  */
+.featured-flowers-container {
+  padding: 0px 240px;
+}
+.featured-text {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.flower-trees-container {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 128px;
+}
+
+.pink-flower-tree {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: #a7216226;
+  margin-bottom: 32px;
+}
+
+.pink-flower-tree img {
+  width: 310px;
+  height: 428px;
+  padding: 110px 78px 0px 76px;
+}
+
+.bouquet-flower {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: #0597a026;
+  margin-bottom: 32px;
+}
+
+.bouquet-flower img {
+  width: 370px;
+  height: 370px;
+  padding: 117px 47px 51px;
+}
+
+.yellow-flower-tree {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: #477d1126;
+  margin-bottom: 32px;
+}
+
+.yellow-flower-tree img {
+  width: 314px;
+  height: 471px;
+  padding: 67px 75px 0px;
 }
