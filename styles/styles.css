@@ -123,3 +123,36 @@ body {
   height: 471px;
   padding: 67px 75px 0px;
 }
+
+/* Customer Support Section Styles  */
+
+.customer-support-container {
+  background-color: #2727270d;
+  margin: 0px 240px 128px;
+  border-radius: 8px;
+}
+
+.items {
+  display: flex;
+  gap: 100px;
+  padding: 86px 175px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.customer-img {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 24px;
+}
+
+.item-text {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35px;
+}
