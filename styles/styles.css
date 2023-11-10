@@ -187,3 +187,28 @@ body {
   width: 318px;
   height: 420px;
 }
+
+/* Instagram Section Styles  */
+.instagram-section-container {
+  margin-bottom: 128px;
+}
+
+.instagram-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.instagram-description {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.instagram-images-container {
+  margin: 0px 240px;
+}
+
+.instagram-images-container img {
+  width: 342px;
+  height: 396px;
+  padding: 0px 5px;
+}
